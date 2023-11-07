@@ -1,21 +1,10 @@
-﻿
-using webApi1.Models;
-using Task = webApi1.Models.Task;
+﻿using webApi1.Models;
 
 namespace webApi1
 {
     public class TaskServices
     {
-        static List<Task> taskList = new List<Task>();
-        Task t;
-        public Task createTask(string title, string description, DateTime time, Preference preference)
-        {
-            t = new Task(title, description, time, preference);
-            taskList.Add(t);
-            return t;
-        }
-
-        public bool deleteTask(int id)
+        public void CreatTask(Task t)
         {
             t = taskList.Find(e => e.Id == id);
             if (t == null) return false;
