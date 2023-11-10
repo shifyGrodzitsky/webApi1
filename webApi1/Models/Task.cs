@@ -9,6 +9,8 @@ namespace webApi1.Models
         public string Description { get; set; }
         public DateTime EndDate { get; set; }
         public Preference Preference { get; set; }
+
+
         
 
 
@@ -21,13 +23,6 @@ namespace webApi1.Models
             Preference = preference;
 
         }
-<<<<<<< Updated upstream
-        //jjkjkjkj
-=======
-        //hi to all!!!!
-        //jkjkhug
->>>>>>> Stashed changes
-        //iiuiuiji
 
     }
 }
