@@ -2,8 +2,9 @@
 {
     public class Task
     {
+        public int Id { get; } = 0;
         public string Title { get; set; }
-        public int Description { get; set; }
+        public string Description { get; set; }
         public DateTime EndDate { get; set; }
         public Preference Preference { get; set; }
 
