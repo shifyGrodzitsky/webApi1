@@ -6,6 +6,8 @@
         public int Description { get; set; }
         public DateTime EndDate { get; set; }
         public Preference Preference { get; set; }
+
+
         
 
 
@@ -18,7 +20,6 @@
             Preference = preference;
 
         }
-
 
     }
 }
